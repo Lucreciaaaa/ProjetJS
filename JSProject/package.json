@@ -1,0 +1,36 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bob.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bob.js",
+    "test": "mocha --recursive",  
+    "format": "prettier --write-out-if-different ."
+  },
+  "author": "",
+  "license": "ISC",
+  "xo": {
+    "space": 2,
+    "prettier": true,
+    "rules": {
+      "unicorn/no-fn-reference-in-iterator": 0,
+      "unicorn/no-array-callback-reference": 0,
+      "unicorn/no-array-method-this-argument": 0,
+      "unicorn/no-array-reduce": 0,
+      "unicorn/no-array-for-each": 0
+    }
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "devDependencies": {
+    "xo": "^0.58.0"
+  },
+  "dependencies": {
+    "ramda": "^0.29.1"
+  }
+}
