@@ -1,6 +1,6 @@
 # ProjetJS
 
-Système de réservations Hotel/ ou plats à emporter traiteur par exemple
+Ce projet implémente un système de réservation de chambres d'hôtel simple en utilisant la bibliothèque JavaScript Ramda.js. Il permet de gérer les chambres disponibles, les réservations et la vérification de la disponibilité.
 
 Membre du groupe : FODOUOP Lucrèce, GAUDEAUX Louis
 
